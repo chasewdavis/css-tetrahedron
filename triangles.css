@@ -31,23 +31,26 @@ body {
 }
 
 .front{
-    transform: translateZ( 57.6px ) rotateX(calc(90deg - 70.528779deg));
+    transform: translateZ(115.47005px) rotateX(19.471221deg);
+    transform-origin: center bottom;
     background: rgba(0, 81, 255, 0.596);
 }
 
 .bottom {
-    transform: translateY(-10px) translateZ( 115.2px ) rotateX(90deg);
+    transform: translateZ(115.47005px) rotateX(90deg);
     transform-origin: center bottom;
     background: rgba(255, 30, 0, 0.671);
 }
 
 .back-left {
-    transform: translateX(-49.88306px) translateZ(-28.8px) rotateY(60deg) rotateX( -19.471221deg);
+    transform: translateX(-100px) translateZ(-57.735025px) rotateY(60deg) rotateX(-19.471221deg);
+    transform-origin: center bottom;
     background: rgba(0, 255, 106, 0.575);
 }
 
 .back-right {
-    transform: translateX(49.88306px) translateZ(-28.8px) rotateY(-60deg) rotateX( -19.471221deg );
+    transform: translateX(100px) translateZ(-57.735025px) rotateY(-60deg) rotateX(-19.471221deg);
+    transform-origin: center bottom;
     background: rgba(255, 251, 0, 0.507);
 }
 
